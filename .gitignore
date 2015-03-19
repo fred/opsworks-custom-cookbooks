@@ -1,0 +1,24 @@
+.env
+.vagrant
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+.kitchen
+.cookbooks
+.roles
+
+# Bundler
+bin/*
+.bundle/*
+
+# This should be put in global gitignore.
+.DS_Store
+Thumbs.db
+
+.kitchen/
+.kitchen.local.yml
+tmp/
+.ruby-version
